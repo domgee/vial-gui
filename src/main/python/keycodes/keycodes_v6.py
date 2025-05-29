@@ -574,6 +574,13 @@ class keycodes_v6:
         "RM_VALD": 0x784A,
         "RM_SPDU": 0x784B,
         "RM_SPDD": 0x784C,
+
+        "QK_REPEAT_KEY": 0x7C79,
+        "QK_ALT_REPEAT_KEY": 0x7C7A,
+        "QK_LAYER_LOCK": 0x7C7B,
+        "QK_DYNAMIC_TAPPING_TERM_PRINT": 0x7C70,
+        "QK_DYNAMIC_TAPPING_TERM_UP": 0x7C71,
+        "QK_DYNAMIC_TAPPING_TERM_DOWN": 0x7C72,
     }
 
     masked = set()

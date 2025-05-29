@@ -482,6 +482,13 @@ KEYCODES_QUANTUM = [
     K("CMB_ON", "Combo\nOn", "Turns on Combo feature"),
     K("CMB_OFF", "Combo\nOff", "Turns off Combo feature"),
     K("CMB_TOG", "Combo\nToggle", "Toggles Combo feature on and off"),
+
+    K("QK_REPEAT_KEY", "Repeat\nKey", "Repeat key"),
+    K("QK_ALT_REPEAT_KEY", "Alt\nRepeat\nKey", "Alt repeat key"),
+    K("QK_LAYER_LOCK", "Layer\nLock", "Layer lock"),
+    K("QK_DYNAMIC_TAPPING_TERM_UP", "Tapping\nTerm\nUp", "Increase dynamic tapping term"),
+    K("QK_DYNAMIC_TAPPING_TERM_DOWN", "Tapping\nTerm\nDown", "Decrease dynamic tapping term"),
+    K("QK_DYNAMIC_TAPPING_TERM_PRINT", "Tapping\nTerm\nPrint", "Print dynamic tapping term"),
 ]
 
 KEYCODES_BACKLIGHT = [

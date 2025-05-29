@@ -576,6 +576,14 @@ class keycodes_v5:
         "RM_SPDU": 0x999b,
         "RM_SPDD": 0x999c,
         "QK_REBOOT": 0x999d,
+
+        # TODO: think these are version 6 keycodes, find correct values for v5
+        "QK_REPEAT_KEY": 0x7C79,
+        "QK_ALT_REPEAT_KEY": 0x7C7A,
+        "QK_LAYER_LOCK": 0x7C7B,
+        "QK_DYNAMIC_TAPPING_TERM_PRINT": 0x7C70,
+        "QK_DYNAMIC_TAPPING_TERM_UP": 0x7C71,
+        "QK_DYNAMIC_TAPPING_TERM_DOWN": 0x7C72,
     }
 
     masked = set()
